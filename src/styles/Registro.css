@@ -1,0 +1,89 @@
+.registration-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 800px; /* Ancho del formulario */
+    max-width: 100%;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+  }
+  
+  .form-group:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 15px; /* Ajuste del tamaño del botón */
+    margin-top: 20px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-group button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .form-footer {
+    text-align: center;
+  }
+  
+  .form-footer p {
+    margin-top: 20px;
+  }
+  
+  .form-footer p a {
+    color: #ff7e5f;
+    text-decoration: none;
+  }
+  
+  .form-footer p a:hover {
+    text-decoration: underline;
+  }
+  
